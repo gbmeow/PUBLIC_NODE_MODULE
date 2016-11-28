@@ -8,6 +8,7 @@ import { FunBoardComponent } from './fun-board.component';
   imports: [
     CommonModule
   ],
+  exports: [FunBoardComponent],
   declarations: [FunBoardComponent]
 })
 export class FunBoardModule { }
